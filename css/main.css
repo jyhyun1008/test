@@ -54,8 +54,8 @@
 }
 
 body {
-	background-color: var(--white);
-   background-image: radial-gradient(#fe8889 1px, transparent 0);
+	background-color: var(--red);
+   background-image: radial-gradient(#fe8889 1px, #F9F8F4 0);
    background-size: 30px 30px;
    background-position: -15px -15px;
 }
