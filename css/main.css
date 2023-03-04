@@ -41,7 +41,7 @@
 
 :root {
   --green: #245441;
-  --yellow: #F6B65A;
+  --yellow: #FFDA00;
   --orange: #fd9a24;
   --red: #fe8889;
   --pink: #ff83C1;
@@ -183,6 +183,16 @@ code {
 
 .item ul li::before {
 	content: "\2574";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+	color: var(--pink); /* Change the color */
+	font-weight: bold; /* If you want it to be bold */
+	display: inline-block; /* Needed to add space between the bullet and the text */
+	width: 1em; /* Also needed for space (tweak if needed) */
+	margin-left: -1em; /* Also needed for space (tweak if needed) */
+  }
+
+
+.item ul .tab-link::before {
+	content: "";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
 	color: var(--pink); /* Change the color */
 	font-weight: bold; /* If you want it to be bold */
 	display: inline-block; /* Needed to add space between the bullet and the text */
