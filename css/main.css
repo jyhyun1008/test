@@ -340,6 +340,7 @@ aside {
 
 
 .main_container .content .item_wrap .title{
+	text-transform: uppercase;
     	text-shadow: -0.2px 0, 0 0.2px, 0.2px 0, 0 -0.2px;
 	padding: 5px 25px;
 	padding-top: 10px;
