@@ -21,8 +21,8 @@
 	</div>
 	<div id="tab-3" class="tab-content">
 
-* 링크 5
-* 링크 6
+* [MOVEL을 배포합니다](./?p=blog/MOVEL을%20배포합니다)
+* [코코아체를 공개합니다](./?p=blog/코코아체를%20공개합니다)
 
 	</div>
 </div>
