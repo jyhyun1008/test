@@ -1,0 +1,345 @@
+@font-face {
+    font-family: 'Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/BookkMyungjo-Lt.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mono';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_Monoplex-kr@1.0/MonoplexKR-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Title';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/JSArirangHON-RegularA1.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/BookkMyungjo-Bd.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Regular', sans-serif;
+	text-decoration: none;
+	box-sizing: border-box;
+	font-size: 16px;
+	line-height: 1.7rem;
+}
+
+:root {
+  --green: #245441;
+  --yellow: #F6B65A;
+  --orange: #fd9a24;
+  --red: #fe8889;
+  --pink: #ff83C1;
+  --violet: #dfb3F2;
+  --blue: #558BCF;
+  --brown: #5F4541;
+  --bg: #E0DFDE;
+  --text: #2a2728;
+  --white: #F9F8F4;
+}
+
+body {
+	background-color: var(--white);
+}
+
+b, strong, h1, h2, h3 {
+    font-family: 'Bold';
+}
+
+a {
+	color: var(--blue);
+	vertical-align: 1px;
+}
+
+h1 {
+	font-size: 1.7em;
+	line-height: 2.5em;
+    color: var(--red);
+}
+
+h2 {
+	font-size: 1.5em;
+	line-height: 2.2em;
+	color: var(--brown);
+}
+
+h3 {
+	font-size: 1.2em;
+	line-height: 1.9em;
+}
+
+p {
+	margin-bottom: 10px;
+}
+
+i {
+	font-size: 1.5rem;
+}
+
+a.icon {
+	position: relative;
+	top: 3px;
+	z-index: 0;
+	background-color: var(--green);
+	color: var(--white);
+	border-radius: 15px;
+	padding: 10px 5px 0px 5px;
+}
+
+blockquote {
+	padding: 18px;
+	margin: 10px 0;
+	color: var(--green);
+	background-color: var(--white);
+	border-radius: 25px;
+}
+
+blockquote:before {
+	content: "\201C";
+	font-size: 3em;
+	font-family: Georgia;
+	color: var(--bg);
+	float: left;
+	margin: -5px 10px 0px -10px;
+  }
+
+table {
+	border-spacing: 0;
+	border: 1px solid var(--bg);
+	background-color: var(--white);
+}
+
+table thead {
+	border: 1px solid;
+	background-color: var(--bg);
+}
+
+table tr {
+	border: 1px solid;
+	background-color: inherit;
+}
+
+table tr:nth-child(2n) {
+	border: 1px solid;
+	background-color: var(--bg);
+}
+
+table img {
+	width: 100%;
+}
+
+.code {
+	font-family: "Mono";
+	padding: 18px;
+	margin: 10px 0;
+	color: var(--pink);
+	background-color: var(--bg);
+	border-radius: 25px;
+	overflow-x: scroll;
+    	word-break: break-all;
+}
+
+.code p {
+	font-family: "Mono";
+	white-space: pre-wrap;
+}
+
+code {
+	font-family: "Mono";
+	background-color: var(--bg);
+	color: var(--pink);
+	border-radius: 15px;
+	padding: 2px 10px;
+	white-space: normal;
+}
+
+.item ul {
+	display: block;
+	list-style: none; /* Remove default bullets */
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	padding-inline-start: 40px;
+}
+
+.item ul li::before {
+	content: "\2574";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+	color: var(--pink); /* Change the color */
+	font-weight: bold; /* If you want it to be bold */
+	display: inline-block; /* Needed to add space between the bullet and the text */
+	width: 1em; /* Also needed for space (tweak if needed) */
+	margin-left: -1em; /* Also needed for space (tweak if needed) */
+  }
+
+.item ul li {
+	margin-bottom: 10px;
+}
+
+.item ol {
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	padding-inline-start: 40px;
+}
+
+.item ol li {
+	margin-bottom: 10px;
+}
+
+aside {
+    float: left;
+    width: 30%;
+    margin-bottom: 35px;
+}
+
+.navbar{
+	width: 20px;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 5;
+}
+
+.navbar .inner_navbar{
+    margin-top: 20px;
+	display: flex;
+    flex-direction: column; /*수직 정렬*/
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	height: 100%;
+}
+
+.navbar .hamburger{
+	display: none;
+}
+
+.navbar .menu {
+    margin: 0;
+}
+
+.logo {
+
+    margin-bottom: 60px;
+}
+
+.logo a{
+   	text-shadow: -0.2px 0, 0 0.2px, 0.2px 0, 0 -0.2px;
+	font-weight: 700;
+	font-size: 2rem;
+	letter-spacing: 3px;
+	color: var(--red);
+	vertical-align: -6px;
+}
+
+.logo a span{
+    font-family: inherit;
+	font-size: inherit;
+	color: var(--yellow);
+	letter-spacing: inherit;
+	vertical-align: 0;
+}
+
+.navbar .menu ul{
+	display: flex;
+    flex-direction: column; /*수직 정렬*/
+	list-style: none;
+}
+
+.navbar .menu ul li{
+	margin-top: 10px;
+	margin-right: 0;
+	display: flex;
+    align-items: center;
+	height: 60px;
+    border-radius: 150px 0 0 150px;
+	background-color: var(--red);
+}
+
+.navbar .menu ul li a{
+    padding: 12px 10px;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 1em;
+	letter-spacing: 2px;
+	transition: all 0.2s ease;
+    writing-mode: vertical-rl;
+	color: var(--white);
+}
+
+.navbar .menu ul li:last-child a{
+	margin-bottom: 0;	
+}
+
+.navbar .menu ul li:hover,
+.navbar .menu ul li a.active{
+	background: var(--violet);
+}
+
+.main_container{
+    	max-width: 800px;
+	margin-top: 70px;
+    	margin-left: auto;
+    	margin-right: auto;
+	margin-bottom: 20px;
+	height: auto;
+	min-height: calc(100vh - 240px);
+}
+
+.main_container .content{
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+}
+
+.main_container .content .item_wrap{
+	width: 100%;
+	padding: 10px;
+}
+
+.main_container .content .item_wrap .item{
+	padding: 15px 25px;
+    	border-radius: 25px;
+	background: #fff;
+	line-height: 22px;
+}
+
+
+.main_container .content .item_wrap .title{
+    	text-shadow: -0.2px 0, 0 0.2px, 0.2px 0, 0 -0.2px;
+	padding: 5px 25px;
+	padding-top: 10px;
+    	border-radius: 25px;
+	background: var(--red);
+	color: var(--white);
+	font-size: 2rem;
+	line-height: 3rem;
+}
+
+
+footer {
+	width: 100%;
+	height: 150px;
+	text-align: center;
+	background-color: var(--sky);
+	color: var(--white);
+	position : relative;
+	transform : translateY(calc(-100% + 150px));
+	padding: 20px;
+}
