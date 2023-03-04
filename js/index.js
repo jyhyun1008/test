@@ -132,7 +132,7 @@ if (!page) {
     fetch(url)
     .then(res => res.text())
     .then((out) => {
-        document.querySelector(".page_title").innerText = page.substring(page.lastIndexOf('/') + 1)
+        document.querySelector(".title").innerText = page.substring(page.lastIndexOf('/') + 1)
         document.querySelector("#post").innerHTML += parseMd(out)
         
         $(document).ready(function(){
