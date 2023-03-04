@@ -123,7 +123,7 @@ if (!page) {
     fetch(url)
     .then(res => res.text())
     .then((out) => {
-        document.querySelector(".title").innerText = 'gwansangg.am'
+        document.querySelector(".title").innerText = '피치타르트'
         document.querySelector("#post").innerHTML += parseMd(out)
     })
     .catch(err => { throw err });

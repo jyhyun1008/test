@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200&display=swap');
+
+
 @font-face {
     font-family: 'Regular';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/BookkMyungjo-Lt.woff2') format('woff2');
@@ -29,7 +32,7 @@
 *{
 	margin: 0;
 	padding: 0;
-	font-family: 'Regular', sans-serif;
+	font-family: 'Regular', 'Noto Serif JP', sans-serif;
 	text-decoration: none;
 	box-sizing: border-box;
 	font-size: 16px;
@@ -52,6 +55,9 @@
 
 body {
 	background-color: var(--white);
+   background-image: radial-gradient(#fe8889 1px, transparent 0);
+   background-size: 30px 30px;
+   background-position: -15px -15px;
 }
 
 b, strong, h1, h2, h3 {
@@ -92,7 +98,7 @@ a.icon {
 	position: relative;
 	top: 3px;
 	z-index: 0;
-	background-color: var(--green);
+	background-color: var(--red);
 	color: var(--white);
 	border-radius: 15px;
 	padding: 10px 5px 0px 5px;
@@ -101,7 +107,7 @@ a.icon {
 blockquote {
 	padding: 18px;
 	margin: 10px 0;
-	color: var(--green);
+	color: var(--red);
 	background-color: var(--white);
 	border-radius: 25px;
 }
@@ -316,7 +322,7 @@ aside {
 .main_container .content .item_wrap .item{
 	padding: 15px 25px;
     	border-radius: 25px;
-	background: #fff;
+	background: #ffffff99;
 	line-height: 22px;
 }
 
@@ -337,7 +343,7 @@ footer {
 	width: 100%;
 	height: 150px;
 	text-align: center;
-	background-color: var(--sky);
+	background-color: var(--red);
 	color: var(--white);
 	position : relative;
 	transform : translateY(calc(-100% + 150px));
