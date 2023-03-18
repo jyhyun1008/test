@@ -19,7 +19,7 @@ Zine은 개인이나 작은 단체에 의해 독립적으로 만들어진 작고
 * [개인정보 제출용 구글 폼 링크](https://docs.google.com/forms/d/e/1FAIpQLSf6SY5aYWSrfxjneBA655MMhpHsZl5hAVJuRhfuCQNRIwXLfg/viewform?usp=sf_link)
 
 	</div>
-	<div id="tab-2" class="tab-content">å
+	<div id="tab-2" class="tab-content">
 
     * 01. `에세이` 대학원 탈주일지
     * 02. `충청여행` 논산딸기축제
