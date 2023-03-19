@@ -2,7 +2,7 @@
 
 <div class="container2">
 	<ul class="tabs">
-		<li class="tab-link current" data-tab="tab-1">ZiNESIS_소개</li>
+		<li class="tab-link current" data-tab="tab-1">ZLOG_소개</li>
 		<li class="tab-link" data-tab="tab-2">목록</li>
 		<li class="tab-link" data-tab="tab-3">그외</li>
 	</ul>
