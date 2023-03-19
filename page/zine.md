@@ -24,6 +24,8 @@ Blog, vlog 등 우리는 무언가의 기록을 log라고 말합니다. 웹에 �
 	<div id="tab-2" class="tab-content">
 
 * 001 `피치타르트` 월간 피치타르트 2023년 2월
+* 002 `에세이` 대학원 탈주일지
+* 003 `필기` 1학년 1학기 (1)
 
 	</div>
 	<div id="tab-3" class="tab-content">
