@@ -207,7 +207,7 @@ input[type=submit]:focus {
 
 #title {
   font-family: 'Bold';
-  color: #40c798;
+  color: #000000;
   /* トップ画像に重なる文字の色 */
   text-shadow: 2px 2px 0 #ffffff, -2px 2px 0 #ffffff, 2px -2px 0 #ffffff, -2px -2px 0 #ffffff, 2px 0 0 #ffffff, 0 2px 0 #ffffff, -2px 0 0 #ffffff, 0 -2px 0 #ffffff;
   /* トップ画像に重なる文字のふちどりの色です
@@ -222,6 +222,7 @@ input[type=submit]:focus {
   width: 20%;
   height: 100vh;
   z-index: 1000;
+  background: #40c798;
 }
 
 @media (max-width: 1199px) {
@@ -251,8 +252,6 @@ input[type=submit]:focus {
     -webkit-writing-mode: horizontal-tb;
         -ms-writing-mode: lr-tb;
             writing-mode: horizontal-tb;
-
-   background: #40c798;
   }
 }
 
