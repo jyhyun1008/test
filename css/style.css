@@ -56,7 +56,6 @@ body {
   /* 背景画像 */
   background-repeat: repeat;
   background-attachment: fixed;
-  font-family: 'genjyuugothic';
 }
 
 h1,
@@ -64,7 +63,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'geneiantique';
+  font-family: 'Bold';
   line-height: 1.6em;
 }
 
@@ -207,7 +206,7 @@ input[type=submit]:focus {
 }
 
 #title {
-  font-family: 'geneiantique';
+  font-family: 'Bold';
   color: #000000;
   /* トップ画像に重なる文字の色 */
   text-shadow: 2px 2px 0 #ffffff, -2px 2px 0 #ffffff, 2px -2px 0 #ffffff, -2px -2px 0 #ffffff, 2px 0 0 #ffffff, 0 2px 0 #ffffff, -2px 0 0 #ffffff, 0 -2px 0 #ffffff;
@@ -367,7 +366,7 @@ input[type=submit]:focus {
 #headernav nav ul li a {
   font-size: 18px;
   font-weight: bold;
-  font-family: 'geneiantique';
+  font-family: 'Bold';
   display: block;
   color: black;
   padding: 2px 10px;
@@ -404,7 +403,7 @@ input[type=submit]:focus {
 .update h4 {
   padding-left: 0;
   margin-bottom: 1em;
-  font-family: 'genjyuugothic';
+  font-family: 'Regular';
   font-weight: bold;
   border-bottom: none;
 }
