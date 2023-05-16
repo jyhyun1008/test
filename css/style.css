@@ -207,7 +207,7 @@ input[type=submit]:focus {
 
 #title {
   font-family: 'Bold';
-  color: #000000;
+  color: #40c798;
   /* トップ画像に重なる文字の色 */
   text-shadow: 2px 2px 0 #ffffff, -2px 2px 0 #ffffff, 2px -2px 0 #ffffff, -2px -2px 0 #ffffff, 2px 0 0 #ffffff, 0 2px 0 #ffffff, -2px 0 0 #ffffff, 0 -2px 0 #ffffff;
   /* トップ画像に重なる文字のふちどりの色です
@@ -374,7 +374,7 @@ input[type=submit]:focus {
 
 #headernav nav ul li a:hover {
   background-color: #ffffff;
-  background-image: radial-gradient(#bababa 25%, transparent 25%), radial-gradient(#bababa 25%, transparent 25%);
+  background-image: radial-gradient(#40c798 25%, transparent 25%), radial-gradient(#40c798 25%, transparent 25%);
   background-position: 1px 1px, 1px 1px;
   background-size: 3px 3px;
   background-repeat: repeat;
@@ -505,7 +505,7 @@ input[type=submit]:focus {
 }
 
 .big-banner .text.right.pink {
-  background: #d91a56;
+  background: #40c798;
 }
 
 .big-banner .text.right.pink:before {
@@ -515,7 +515,7 @@ input[type=submit]:focus {
 }
 
 .big-banner .text.right.pink:before {
-  border-bottom: solid 200px #d91a56;
+  border-bottom: solid 200px #40c798;
   border-left: solid 100px transparent;
   right: 100%;
 }
@@ -545,7 +545,7 @@ input[type=submit]:focus {
 }
 
 .big-banner .text.left.pink {
-  background: #d91a56;
+  background: #40c798;
 }
 
 .big-banner .text.left.pink:before {
@@ -555,7 +555,7 @@ input[type=submit]:focus {
 }
 
 .big-banner .text.left.pink:before {
-  border-top: solid 200px #d91a56;
+  border-top: solid 200px #40c798;
   border-right: solid 100px transparent;
   left: 100%;
 }
@@ -644,7 +644,7 @@ input[type=submit]:focus {
 }
 
 .comiccard .comiccard__wrap.pink {
-  background: #d91a56;
+  background: #40c798;
 }
 
 .comiccard .comiccard__wrap:hover {
@@ -751,7 +751,7 @@ ul.novel-1 li {
 
 ul.novel-1 li.new:after {
   content: 'new';
-  color: #f75e5e;
+  color: #40c798;
   font-size: 13px;
   font-weight: bold;
   margin-left: 5px;
@@ -784,7 +784,7 @@ ul.novel-2 li {
 
 ul.novel-2 li.new:after {
   content: 'new';
-  color: #f75e5e;
+  color: #40c798;
   font-size: 13px;
   font-weight: bold;
   margin-left: 5px;
@@ -862,7 +862,7 @@ ul.illust li.new:before {
 }
 
 ul.illust li.new:before {
-  border-top: solid 45px #d91a56;
+  border-top: solid 45px #40c798;
   border-left: solid 45px transparent;
   right: 2px;
   top: 2px;
@@ -1196,7 +1196,7 @@ dl.book-01 dd {
 }
 
 span.pink {
-  color: #fa3c72;
+  color: #40c798;
 }
 
 a.btn {
@@ -1245,11 +1245,11 @@ a.btn.black:hover {
 }
 
 a.btn.pink {
-  background: #fa3c72;
+  background: #40c798;
 }
 
 a.btn.pink:hover {
-  background: #fc87a8;
+  background: #91ffc1;
   -webkit-transition: .2s;
   transition: .2s;
   color: #ffffff;
