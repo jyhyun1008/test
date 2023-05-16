@@ -251,10 +251,13 @@ input[type=submit]:focus {
     -webkit-writing-mode: horizontal-tb;
         -ms-writing-mode: lr-tb;
             writing-mode: horizontal-tb;
+
+   background: #40c798;
   }
 }
 
 #title img {
+  mix-blend-mode: screen;
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
