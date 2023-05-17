@@ -13,16 +13,6 @@
     font-style: normal;
 }
 
-body {
-    min-height: 100vh;
-    /* mobile viewport bug fix */
-    min-height: -webkit-fill-available;
-  }
-  
-  html {
-    height: -webkit-fill-available;
-  }
-
 :root {
     --text: #14171A;
     --textaccent: #f09fb6;
@@ -62,6 +52,7 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
     height: 100vh;
+    min-height: -webkit-fill-available;
     overflow: hidden;
     background: linear-gradient(var(--accent), var(--accent-gradient));
 }
