@@ -62,11 +62,27 @@ body {
     top: 10px;
     left: max(calc(50vw - 370px), 10px);
     max-width: 740px;
-    height: calc(100vh - 100px);
-    border-radius: 50px 50px 0 0;
+    height: calc(100vh - 20px);
+    border-radius: 50px;
     background-color: var(--white);
-    overflow: scroll;
     z-index: 0;
+}
+
+.logo_container {
+    position: fixed;
+    max-width: 740px;
+    width: calc(100vw - 20px);
+    height: calc(90px + 3em);
+    border-radius: 50px 50px 0 0;
+}
+
+.tline_container {
+    position: fixed;
+    top: calc(90px + 3rem);
+    max-width: 740px;
+    width: calc(100vw - 20px);
+    height: 3em;
+    overflow: scroll;
 }
 
 .nav_container {
@@ -120,6 +136,7 @@ i {
     font-family: 'Bold';
     text-transform: uppercase;
     color: var(--accent);
+    height: 3em;
 }
 
 p {

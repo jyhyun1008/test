@@ -1,11 +1,12 @@
 
-
-
-document.querySelector('.frame').style.height = (window.innerHeight - 100)+'px';
+let TlineHeight = document.querySelector('.logo_container').clientHeight;
+document.querySelector('.tline_container').style.height = (window.innerHeight - 90 - TlineHeight)+'px';
 
 // 리사이즈
 window.addEventListener('resize', () => {
-    document.querySelector('.frame').style.height = (window.innerHeight - 100)+'px';
+
+    let TlineHeight = document.querySelector('.logo_container').clientHeight;
+    document.querySelector('.tline_container').style.height = (window.innerHeight - 90 - TlineHeight)+'px';
 })
 
 
