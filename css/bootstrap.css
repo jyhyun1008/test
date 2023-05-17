@@ -28,6 +28,7 @@ html {
   word-break: break-word;
   -moz-tab-size: 4;
   tab-size: 4;
+  line-height: 180%
 }
 
 *,
