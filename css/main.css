@@ -19,6 +19,7 @@
     --accent: #45d07a;
     --blue: #1DA1F2;
     --darkgray: #657786;
+    --gray: #E1E8ED;
     --lightgray: #F5F8FA;
     --white: #fff;
 }
@@ -91,6 +92,12 @@ body {
     color: var(--blue);
 }
 
+hr {
+    background:var(--gray);
+    height:1px;
+    border:0;
+}
+
 span {
     color: var(--yellow);
     font-size: inherit;
@@ -140,11 +147,15 @@ img {
     border-radius: 50px;
     background-color: var(--blue);
     color: var(--lightgray);
+    min-width: 80px;
+    text-align: center;
+    max-height: 1.7em;
   }
   
 .tweet_wrapper {
     display: flex;
     padding: 10px 0;
+    justify-content: space-around;
 }
 
 .tweet_wrapper img {
@@ -154,10 +165,12 @@ img {
 }
 
 .tweet_wrapper .tweet {
+    width: 100%;
     padding: 0 0 0 10px;
 }
 
 .tweet_wrapper .user {
+    width: 100%;
     padding: 0 0 0 10px;
 }
 
