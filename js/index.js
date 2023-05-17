@@ -18,10 +18,10 @@ function parseMd(md){
     var md0 = md;
 
     //at
-    md = md.replace(/\n[\@]{1}([^\s]+)\s(.+)\n\n(.+)\n\n[\`]{1}([^\`]+)[\`]{1}/g, '<div class="tweet_wrapper"><img src="img/$1.png" class="profile_image"></img><div class="tweet"><div class="username">$2</div><div class="userid">@$1</div><div class="tweet_contents">$3</div><code>$4</code></div></div>');
+    md = md.replace(/\n[\@]{1}([^\s]+)\s(.+)\n\n(.+)\n\n[\`]{1}([^\`]+)[\`]{1}/g, '<div class="tweet_wrapper"><a href="/index.html?p=account/$1"><img src="img/$1.png" class="profile_image"></img></a><div class="tweet"><div class="username">$2</div><div class="userid">@$1</div><div class="tweet_contents">$3</div><code>$4</code></div></div>');
     //md = md.replace(/\n[\@\*]{1}(.+)/g, '<img src="img/$1.png" class="profile_image"></img><div class="username">@$1</div>');
 
-    md = md.replace(/\n[\@]{1}([^\s]+)\s(.+)\n\n(.+)\n\n\[follow\]/g, '<div class="tweet_wrapper"><img src="img/$1.png" class="profile_image"></img><div class="user"><div class="username">$2</div><div class="userid">@$1</div><div class="user_bio">$3</div></div><div class="button">팔로우</div></div>');
+    md = md.replace(/\n[\@]{1}([^\s]+)\s(.+)\n\n(.+)\n\n\[follow\]/g, '<div class="tweet_wrapper"><a href="/index.html?p=account/$1"><img src="img/$1.png" class="profile_image"></img></a><div class="user"><div class="username">$2</div><div class="userid">@$1</div><div class="user_bio">$3</div></div><a href="/index.html?p=account/$1"><div class="button">팔로우</div></a></div>');
   
     //ul
     md = md.replace(/^\s*\n\*\s/gm, '<ul>\n* ');
