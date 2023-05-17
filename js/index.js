@@ -164,20 +164,6 @@ if (!page) {
     .then((out) => {
         document.querySelector(".tline_title").innerHTML = page.substring(page.lastIndexOf('/') + 1)
         document.querySelector("#tline_list").innerHTML += parseMd(out)
-        
-        $(document).ready(function(){
-	
-            $('ul.tabs li').click(function(){
-                var tab_id = $(this).attr('data-tab');
-        
-                $('ul.tabs li').removeClass('current');
-                $('.tab-content').removeClass('current');
-        
-                $(this).addClass('current');
-                $("#"+tab_id).addClass('current');
-            })
-        
-        })
     })
     .catch(err => { throw err });
     
