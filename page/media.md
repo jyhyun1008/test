@@ -1,7 +1,7 @@
 
 # 웹툰
 
-@hgjs_official 현가지성
+@hgjs_official 현가지성(HGJS)
 
 《현가지성》 멤버들의 스토리를 담은 웹툰 We Will 樂 儒 ! 의 아카이브 링크를 제공합니다.
 
@@ -12,7 +12,7 @@
 
 # 악곡
 
-@hgjs_official 현가지성
+@hgjs_official 현가지성(HGJS)
 
 《현가지성》 의 오리지널 악곡을 모아 보았습니다.
 
@@ -25,7 +25,7 @@
 
 ---
 
-@hgjs_official 현가지성
+@hgjs_official 현가지성(HGJS)
 
 《현가지성》 의 커버 곡을 모아 보았습니다.
 
@@ -37,7 +37,7 @@
 
 # 애니메이션 영상
 
-@hgjs_official 현가지성
+@hgjs_official 현가지성(HGJS)
 
 《현가지성》 멤버들의 일상을 담은 애니메이션 영상을 모아 보았습니다.
 
