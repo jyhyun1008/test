@@ -128,6 +128,11 @@ a {
     color: inherit;
 }
 
+.tweet_contents a {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+}
+
 i {
     font-size: inherit;
 }
