@@ -1,0 +1,249 @@
+
+@font-face {
+    font-family: 'Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: Bold;
+}
+
+:root {
+    --text: #14171A;
+    --textaccent: #45d07a;
+    --accent: #45d07a;
+    --blue: #1DA1F2;
+    --darkgray: #657786;
+    --lightgray: #F5F8FA;
+    --white: #fff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Regular';
+    font-size: 18px;
+    line-height: 180%;
+  }
+
+h1 {
+    font-size: 2em;
+}
+
+body {
+    background-color: var(--blue);
+}
+
+.frame {
+    width: calc(100vw - 20px);
+    margin: 10px auto;
+    padding: 10px;
+    max-width: 540px;
+    height: calc(100vh - 20px);
+    border-radius: 50px;
+    background-color: var(--white);
+    overflow: scroll;
+}
+
+.nav_container {
+    position: fixed;
+    max-width: 520px;
+    width: 100%;
+    bottom: 20px;
+    z-index: 5;
+    padding: 10px;
+    background-color: var(--lightgray);
+    color: var(--text);
+    border-radius: 50px;
+}
+
+.nav_items {
+    display: flex;
+	flex-direction: row;
+    justify-content: space-around;
+    margin: 10px 0 0 0;
+}
+
+.nav_item {
+    font-size: 2rem;
+}
+
+.logo_container {
+    text-align: center;
+    padding: 10px;
+}
+
+.logo svg {
+    height: 60px;
+}
+
+/*JS 스크립트 상에 나오는 코드들*/
+
+.tline_title {
+    font-size: 1.5em;
+    font-family: 'Bold';
+    color: var(--blue);
+}
+
+span {
+    color: var(--yellow);
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+a {
+	text-decoration: none;
+    font-size: inherit;
+    color: inherit;
+}
+
+i {
+    font-size: inherit;
+}
+
+img {
+    width: 100%;
+    border-radius: 15px;
+  }
+  
+  del {
+      text-decoration: line-through;
+  }
+  
+  pre {
+      padding: 18px;
+      margin: 10px 0;
+      color: var(--accent);
+      background-color: var(--bg);
+      border-radius: 5px;
+      overflow-x: scroll;
+          word-break: break-all;
+  }
+  
+  code {
+      background-color: var(--bg);
+      color: var(--accent);
+      border-radius: 10px;
+      padding: 5px 10px;
+      word-break: break-all;
+  }
+  
+  blockquote {
+      padding: 18px;
+      margin: 10px 0;
+      background-color: #fff;
+      border-radius: 5px;
+  }
+  
+  blockquote:before {
+      content: "\201C";
+      font-size: 2em;
+      font-family: Georgia;
+      color: var(--yellow);
+      float: left;
+      margin: -5px 10px 0px -10px;
+    }
+  
+  .item ul {
+      display: block;
+      list-style: none; /* Remove default bullets */
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      padding-inline-start: 40px;
+  }
+  
+  .before::before {
+      content: "\2574";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+      font-weight: bold; /* If you want it to be bold */
+      display: inline-block; /* Needed to add space between the bullet and the text */
+      width: 1em; /* Also needed for space (tweak if needed) */
+      margin-left: -1em; /* Also needed for space (tweak if needed) */
+    }
+  
+  .item ul li {
+      margin-bottom: 10px;
+  }
+  
+  .item ol {
+      display: block;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      padding-inline-start: 40px;
+      list-style-type: decimal;
+  }
+  
+.item ol li {
+    margin-bottom: 10px;
+}
+
+.page_title {
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.line{
+    color: var(--yellow);
+    max-width: 100%;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  }
+
+.gallery-container {
+	display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: wrap-reverse;
+	justify-content: space-between;
+	align-items: stretch;
+}
+
+.gallery {
+	width: 49.5%;
+	aspect-ratio: 16 / 9;
+	border-radius: 15px;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+.youtube {
+	width: 49.5%;
+	aspect-ratio: 16 / 9;
+	border-radius: 15px;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+
+    .gallery {
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        border-radius: 15px;
+        overflow: hidden;
+        margin-bottom: 10px;
+    }
+    
+    .youtube {
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        border-radius: 15px;
+        overflow: hidden;
+        margin-bottom: 10px;
+    }
+
+  }
