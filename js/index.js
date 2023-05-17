@@ -23,7 +23,7 @@ function parseMd(md){
 
     md = md.replace(/\n\[(.+)\]\n\n[\*]{2}([^\*]+)[\*]{2}\n\n[\@]{1}([^\s]+)/g, '<div class="account_wrapper"><img src="img/$1.png" class="header_image"></img><div class="account"><img src="img/$3.png" class="profile_image"></img></div><div class="user"><div class="username">$2</div><div class="userid">@$3</div></div>');
 
-    md = md.replace(/\n[\@]{1}([^\s]+)\s(.+)\n\n([[\s\S][^\@]+)\n\n\[follow\]/g, '<div class="tweet_wrapper"><a href="?p=account/$1"><img src="img/$1.png" class="profile_image"></img></a><div class="user"><div class="username">$2</div><div class="userid">@$1</div><div class="user_bio">$3</div></div><a href="?p=account/$1"><div class="button">팔로우</div></a></div>');
+    md = md.replace(/\n[\@]{1}([^\s]+)\s(.+)\n\n([[\s\S][^\@]+)\n\n\[more\]/g, '<div class="tweet_wrapper"><a href="?p=account/$1"><img src="img/$1.png" class="profile_image"></img></a><div class="user"><div class="username">$2</div><div class="userid">@$1</div><div class="user_bio">$3</div></div><a href="?p=account/$1"><div class="button">더보기</div></a></div>');
   
     //ul
     md = md.replace(/^\s*\n\*\s/gm, '<ul>\n* ');

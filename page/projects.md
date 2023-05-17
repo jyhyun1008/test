@@ -5,10 +5,10 @@
 
 공식 계정 어쩌고 저쩌고
 
-[follow]
+[more]
 
 @hgjs_official 현가지성(HGJS)
 
 유교 음악
 
-[follow]
+[more]
