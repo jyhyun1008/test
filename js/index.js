@@ -1,15 +1,11 @@
 
 
 
-let vh = window.innerHeight * 0.01;
-
-document.querySelector('.frame').style.height = (100*vh - 100)+'px';
+document.querySelector('.frame').style.height = (window.innerHeight - 100)+'px';
 
 // 리사이즈
 window.addEventListener('resize', () => {
-    let vh = window.innerHeight * 0.01;
-
-    document.querySelector('.frame').style.height = (100*vh - 100)+'px';
+    document.querySelector('.frame').style.height = (window.innerHeight - 100)+'px';
 })
 
 
