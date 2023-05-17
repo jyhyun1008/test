@@ -135,6 +135,13 @@ img {
       font-size: 0.8em;
   }
 
+
+  .button {
+    border-radius: 50px;
+    background-color: var(--blue);
+    color: var(--lightgray);
+  }
+  
 .tweet_wrapper {
     display: flex;
     padding: 10px 0;
@@ -142,14 +149,23 @@ img {
 
 .tweet_wrapper img {
     width: 70px;
+    height: 70px;
     border-radius: 50%;
 }
 
-.userid {
-    font-family: 'Bold';
+.tweet_wrapper .tweet {
+    padding: 0 0 0 10px;
+}
+
+.tweet_wrapper .user {
+    padding: 0 0 0 10px;
 }
 
 .username {
+    font-family: 'Bold';
+}
+
+.userid {
     color: var(--darkgray);
     font-size: 0.8em;
 }

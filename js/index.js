@@ -16,6 +16,12 @@ window.addEventListener('resize', () => {
 function parseMd(md){
 
     var md0 = md;
+
+    //at
+    md = md.replace(/\n[\@]{1}([^\s]+)\s(.+)\n\n(.+)\n\n[\`]{1}([^\`]+)[\`]{1}/g, '<div class="tweet_wrapper"><img src="img/$1.png" class="profile_image"></img><div class="tweet"><div class="username">$2</div><div class="userid">@$1</div><div class="tweet_contents">$3</div><code>$4</code></div></div>');
+    //md = md.replace(/\n[\@\*]{1}(.+)/g, '<img src="img/$1.png" class="profile_image"></img><div class="username">@$1</div>');
+
+    md = md.replace(/\n[\@]{1}([^\s]+)\s(.+)\n\n(.+)\n\n\[follow\]/g, '<div class="tweet_wrapper"><img src="img/$1.png" class="profile_image"></img><div class="user"><div class="username">$2</div><div class="userid">@$1</div><div class="user_bio">$3</div></div><div class="button">팔로우</div></div>');
   
     //ul
     md = md.replace(/^\s*\n\*\s/gm, '<ul>\n* ');
@@ -47,10 +53,6 @@ function parseMd(md){
     md = md.replace(/\n[\#]{3}(.+)/g, '<h3>$1</h3>');
     md = md.replace(/\n[\#]{2}(.+)/g, '<h2>$1</h2>');
     md = md.replace(/\n[\#]{1}(.+)/g, '</div></div><div class="item_wrap"><hr><div class="item"><h1><i class="bx bxl-twitter" ></i> $1</h1>');
-
-    //at
-    md = md.replace(/\n[\@]{1}(.+)\s(.+)\n\n(.+)\n\n[\`]{1}([^\`]+)[\`]{1}/g, '<div class="tweet_wrapper"><img src="img/$1.png" class="profile_image"></img><div class="tweet"><div class="username">$2</div><div class="userid">@$1</div><div class="tweet_contents">$3</div><code>$4</code></div></div>');
-    //md = md.replace(/\n[\@\*]{1}(.+)/g, '<img src="img/$1.png" class="profile_image"></img><div class="username">@$1</div>');
 
     
     //images with links
