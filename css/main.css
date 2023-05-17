@@ -119,16 +119,16 @@ img {
   pre {
       padding: 18px;
       margin: 10px 0;
-      color: var(--accent);
+      color: var(--blue);
       background-color: var(--bg);
       border-radius: 5px;
       overflow-x: scroll;
-          word-break: break-all;
+      word-break: break-all;
   }
   
   code {
-      background-color: var(--bg);
-      color: var(--accent);
+      background-color: var(--lightgray);
+      color: var(--blue);
       border-radius: 10px;
       padding: 5px 10px;
       word-break: break-all;
@@ -145,7 +145,7 @@ img {
       content: "\201C";
       font-size: 2em;
       font-family: Georgia;
-      color: var(--yellow);
+      color: var(--darkgray);
       float: left;
       margin: -5px 10px 0px -10px;
     }
@@ -196,13 +196,18 @@ img {
 }
 
 .line{
-    color: var(--yellow);
+    color: var(--lightgray);
     max-width: 100%;
     margin: 10px auto;
     text-align: center;
     font-size: 30px;
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
   }
+
+.username {
+    color: var(--darkgray);
+    font-size: 0.8em;
+}
 
 .gallery-container {
 	display: flex;
