@@ -51,18 +51,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body {
+    height: 100vh;
     overflow: hidden;
     background: linear-gradient(var(--accent), var(--accent-gradient));
 }
 
 .frame {
     width: calc(100vw - 20px);
-    margin: 10px auto 100px auto;
+    position: fixed;
+    top: 10px;
+    left: max(calc(50vw - 370px), 10px);
     max-width: 740px;
     height: calc(100vh - 100px);
     border-radius: 50px 50px 0 0;
     background-color: var(--white);
     overflow: scroll;
+    z-index: 0;
 }
 
 .nav_container {
