@@ -318,20 +318,4 @@ i {
         font-size: 16px;
     }
 
-    .gallery {
-        width: 100%;
-        aspect-ratio: 16 / 9;
-        border-radius: 15px;
-        overflow: hidden;
-        margin-bottom: 10px;
-    }
-    
-    .youtube {
-        width: 100%;
-        aspect-ratio: 16 / 9;
-        border-radius: 15px;
-        overflow: hidden;
-        margin-bottom: 10px;
-    }
-
   }
