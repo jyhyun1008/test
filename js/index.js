@@ -49,7 +49,7 @@ function parseMd(md){
     md = md.replace(/\n[\#]{1}(.+)/g, '</div></div><div class="item_wrap"><div class="line">✿</div><div class="item"><h1>✅ $1</h1>');
 
     //at
-    md = md.replace(/\n[\@]{1}(.+)/g, '<img src="img/$1.png" class="profile_image"></img><div class="username">$1</div>')
+    md = md.replace(/\n[\@\*]{1}(.+)/g, '<img src="img/$1.png" class="profile_image"></img><div class="username">$1</div>')
     
     //images with links
     md = md.replace(/\!\[([^\]]+)\]\(([^\)]+)\)[\(]{1}([^\)\"]+)(\"(.+)\")?[\)]{1}/g, '<div class="gallery"><a href="$3"><img src="$2" alt="$1" width="100%" /></a></div>');
