@@ -297,7 +297,7 @@ i {
 }
 
 .gallery {
-	width: 49.5%;
+	width: 100%;
 	aspect-ratio: 16 / 9;
 	border-radius: 15px;
 	overflow: hidden;
@@ -305,7 +305,7 @@ i {
 }
 
 .youtube {
-	width: 49.5%;
+	width: 100%;
 	aspect-ratio: 16 / 9;
 	border-radius: 15px;
 	overflow: hidden;
