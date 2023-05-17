@@ -2,19 +2,16 @@
 
 
 let vh = window.innerHeight * 0.01;
-let vw = window.innerWidth * 0.01;
-document.documentElement.style.setProperty('--vh', `${vh}px`);
 
-document.querySelector('.frame').setAttribute('height', 100*vh - 100);
-document.querySelector('.nav_container').setAttribute('top', 100*vh - 90);
+document.querySelector('.frame').setAttribute('height', (100*vh - 100)+'px');
+document.querySelector('.nav_container').setAttribute('top', (100*vh - 90)+'px');
 
 // 리사이즈
 window.addEventListener('resize', () => {
     let vh = window.innerHeight * 0.01;
-    document.documentElement.style.setProperty('--vh', `${vh}px`);
 
-    document.querySelector('.frame').setAttribute('height', 100*vh - 100);
-    document.querySelector('.nav_container').setAttribute('top', 100*vh - 90);
+    document.querySelector('.frame').setAttribute('height', (100*vh - 100)+'px');
+    document.querySelector('.nav_container').setAttribute('top', (100*vh - 90)+'px');
 })
 
 
