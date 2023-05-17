@@ -4,7 +4,7 @@
 let vh = window.innerHeight * 0.01;
 
 document.querySelector('.frame').setAttribute('height', (100*vh - 100)+'px');
-document.querySelector('.nav_container').setAttribute('top', (100*vh - 90)+'px');
+document.querySelector('.nav_container').setAttribute('top', 0+'px');
 
 // 리사이즈
 window.addEventListener('resize', () => {
