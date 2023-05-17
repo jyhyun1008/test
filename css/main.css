@@ -17,6 +17,7 @@
     --text: #14171A;
     --textaccent: #45d07a;
     --accent: #45d07a;
+    --accent-gradient: #90eb4a;
     --blue: #1DA1F2;
     --darkgray: #657786;
     --gray: #E1E8ED;
@@ -45,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
     overflow: hidden;
-    background-color: var(--accent);
+    background: linear-gradient(var(--accent), var(--accent-gradient));
 }
 
 .frame {
