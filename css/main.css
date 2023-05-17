@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
     overflow: hidden;
-    background-color: var(--blue);
+    background-color: var(--accent);
 }
 
 .frame {
@@ -103,7 +103,7 @@ body {
     text-align: center;
     font-size: 1.5em;
     font-family: 'Bold';
-    color: var(--blue);
+    color: var(--accent);
     text-transform: uppercase;
 }
 
@@ -141,7 +141,7 @@ i {
   pre {
       padding: 18px;
       margin: 10px 0;
-      color: var(--blue);
+      color: var(--accent);
       background-color: var(--bg);
       border-radius: 5px;
       overflow-x: scroll;
@@ -150,7 +150,7 @@ i {
   
   code {
       background-color: var(--lightgray);
-      color: var(--blue);
+      color: var(--accent);
       border-radius: 10px;
       padding: 5px 10px;
       word-break: break-all;
@@ -160,7 +160,7 @@ i {
 
   .button {
     border-radius: 50px;
-    background-color: var(--blue);
+    background-color: var(--accent);
     color: var(--lightgray);
     min-width: 80px;
     text-align: center;
