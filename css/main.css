@@ -84,6 +84,10 @@ body {
     height: 60px;
 }
 
+.tline_container {
+    margin-bottom: 100px;
+}
+
 /*JS 스크립트 상에 나오는 코드들*/
 
 .tline_title {
