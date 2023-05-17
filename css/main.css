@@ -292,6 +292,10 @@ i {
 
 @media (max-width: 768px) {
 
+    * {
+        font-size: 16px;
+    }
+
     .gallery {
         width: 100%;
         aspect-ratio: 16 / 9;
