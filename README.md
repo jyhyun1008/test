@@ -1,7 +1,7 @@
 
 # 업데이트
 
-@*yeojiburin_official
+@yeojiburin_official
 
 아무 트윗이나 써보기 140자~!!
 
@@ -9,7 +9,7 @@
 
 ---
 
-@*yanhui
+@yanhui
 
 이건 테스트!
 
