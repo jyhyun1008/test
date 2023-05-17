@@ -55,7 +55,7 @@ body {
 .nav_container {
     position: absolute;
     max-width: 520px;
-    width: 100%;
+    width: calc(100vw - 40px);
     bottom: 20px;
     z-index: 5;
     padding: 10px;
