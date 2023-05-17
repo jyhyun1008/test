@@ -64,7 +64,6 @@ body {
     max-width: 740px;
     height: calc(100vh - 20px);
     border-radius: 50px;
-    background-color: var(--white);
     z-index: 0;
 }
 
@@ -74,6 +73,7 @@ body {
     width: calc(100vw - 20px);
     height: calc(90px + 3em);
     border-radius: 50px 50px 0 0;
+    background-color: var(--white);
 }
 
 .tline_container {
@@ -84,6 +84,7 @@ body {
     height: 3em;
     overflow-y: scroll;
     overflow-x: hidden;
+    background-color: var(--white);
 }
 
 .nav_container {
