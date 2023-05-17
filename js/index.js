@@ -149,7 +149,7 @@ if (!page) {
     fetch(url)
     .then(res => res.text())
     .then((out) => {
-        document.querySelector(".tline_title").innerHTML = '내가 인하지 못한 게 신경쓰이기 시작했다'
+        document.querySelector(".tline_title").innerHTML = 'Yeojibur.in'
         document.querySelector("#tline_list").innerHTML += parseMd(out)
     })
     .catch(err => { throw err });
