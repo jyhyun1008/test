@@ -71,7 +71,7 @@ body {
     max-width: 740px;
     width: calc(100vw - 20px);
     height: 80px;
-    bottom: 10px;
+    top: calc(100vh - 90px);
     z-index: 5;
     padding: 10px;
     background-color: var(--lightgray);
@@ -110,8 +110,8 @@ i {
 /*JS 스크립트 상에 나오는 코드들*/
 
 .tline_title {
-    width: calc(100vw - 40px);
-    max-width: 720px;
+    width: calc(100vw - 20px);
+    max-width: 740px;
     text-align: center;
     font-size: 1.5em;
     font-family: 'Bold';
