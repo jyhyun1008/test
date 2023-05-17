@@ -137,11 +137,16 @@ img {
 
 .tweet_wrapper {
     display: flex;
+    padding: 10px 0;
 }
 
 .tweet_wrapper img {
     width: 70px;
     border-radius: 50%;
+}
+
+.userid {
+    font-family: 'Bold';
 }
 
 .username {

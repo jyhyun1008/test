@@ -1,7 +1,7 @@
 
 # 업데이트
 
-@yeojiburin_official
+@yeojiburin_official 내가 인하지 못한 게 신경쓰이기 시작했다
 
 아무 트윗이나 써보기 140자~!!
 
@@ -9,7 +9,7 @@
 
 ---
 
-@yanhui
+@yanhui 안회
 
 이건 테스트!
 
