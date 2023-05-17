@@ -3,15 +3,10 @@
 
 let vh = window.innerHeight * 0.01;
 
-document.querySelector('.frame').setAttribute('height', (100*vh - 100)+'px');
-document.querySelector('.nav_container').setAttribute('top', 0+'px');
-
 // 리사이즈
 window.addEventListener('resize', () => {
     let vh = window.innerHeight * 0.01;
 
-    document.querySelector('.frame').setAttribute('height', (100*vh - 100)+'px');
-    document.querySelector('.nav_container').setAttribute('top', (100*vh - 90)+'px');
 })
 
 
@@ -155,6 +150,9 @@ if (!page) {
     .then((out) => {
         document.querySelector(".tline_title").innerHTML = 'Yeojibur.in'
         document.querySelector("#tline_list").innerHTML += parseMd(out)
+
+        document.querySelector('.frame').setAttribute('height', (100*vh - 100)+'px');
+        document.querySelector('.nav_container').setAttribute('top', (100*vh - 90)+'px');
     })
     .catch(err => { throw err });
 } else if (page) {
@@ -164,6 +162,9 @@ if (!page) {
     .then((out) => {
         document.querySelector(".tline_title").innerHTML = page.substring(page.lastIndexOf('/') + 1)
         document.querySelector("#tline_list").innerHTML += parseMd(out)
+
+        document.querySelector('.frame').setAttribute('height', (100*vh - 100)+'px');
+        document.querySelector('.nav_container').setAttribute('top', (100*vh - 90)+'px');
     })
     .catch(err => { throw err });
     
