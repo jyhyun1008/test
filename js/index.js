@@ -1,12 +1,20 @@
 
 let TlineHeight = document.querySelector('.logo_container').clientHeight;
-document.querySelector('.tline_container').style.height = (window.innerHeight - 90 - TlineHeight)+'px';
+if (window.innerWidth < 1100) {
+    document.querySelector('.tline_container').style.height = (window.innerHeight - 90 - TlineHeight)+'px';
+} else {
+    document.querySelector('.tline_container').style.height = (window.innerHeight - 20 - TlineHeight)+'px';
+}
 
 // 리사이즈
 window.addEventListener('resize', () => {
 
     let TlineHeight = document.querySelector('.logo_container').clientHeight;
-    document.querySelector('.tline_container').style.height = (window.innerHeight - 90 - TlineHeight)+'px';
+    if (window.innerWidth < 1100) {
+        document.querySelector('.tline_container').style.height = (window.innerHeight - 90 - TlineHeight)+'px';
+    } else {
+        document.querySelector('.tline_container').style.height = (window.innerHeight - 20 - TlineHeight)+'px';
+    }
 })
 
 
@@ -163,3 +171,9 @@ if (!page) {
     .catch(err => { throw err });
     
 }
+
+function getvalue(){
+    var v = document.getElementById('searchinput').value;
+    var urll = 'https://www.google.com/search?q=site%3Ayeojibur.in+'+v;
+    return urll;
+    }
