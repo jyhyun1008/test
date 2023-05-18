@@ -162,7 +162,7 @@ i {
     border-radius: 30px 0 0 30px;
     width: 79%;
     margin: 0;
-    text-indent: 10px;
+    text-indent: 20px;
 }
 
 #searchbutton {
@@ -184,10 +184,16 @@ i {
 }
 
 .link_item {
-    margin: 10px;
+    margin: 10px 10px 0 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.link_link {
+    margin: 0 10px 10px 10px;;
+    color: var(--darkgray);
+    font-size: 0.6em;
 }
 
 /*JS 스크립트 상에 나오는 코드들*/
