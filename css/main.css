@@ -32,7 +32,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Regular';
-    font-size: 18px;
+    font-size: 16px;
     line-height: 180%;
     letter-spacing: 2px;
     color: var(--text);
@@ -559,20 +559,7 @@ i {
 }
 
 
-@media (max-width: 768px) {
-
-    * {
-        font-size: 16px;
-    }
-
-  }
-
-
 @media (min-width: 1100px) {
-
-    * {
-        font-size: 18px;
-    }
 
     .tline_container {
         top: calc(3em + 10px);
