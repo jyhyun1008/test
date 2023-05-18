@@ -71,14 +71,14 @@ body {
     position: fixed;
     max-width: 740px;
     width: calc(100vw - 20px);
-    height: calc(90px + 3em);
+    height: calc(70px + 3em);
     border-radius: 50px 50px 0 0;
     background-color: var(--white);
 }
 
 .tline_container {
     position: fixed;
-    top: calc(90px + 3rem);
+    top: calc(70px + 3rem);
     max-width: 740px;
     width: calc(100vw - 20px);
     height: 3em;
@@ -124,15 +124,13 @@ i {
 }
 
 .logo svg {
-    height: 60px;
+    height: 40px;
 }
 
 
 /*JS 스크립트 상에 나오는 코드들*/
 
 .tline_title {
-    width: calc(100vw - 20px);
-    max-width: 740px;
     text-align: center;
     font-size: 1.5em;
     font-family: 'Bold';
