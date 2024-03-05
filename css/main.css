@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'ONE-Mobile-POP';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-POP.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --accent: #ff9899;
+    --bg: #efefef;
+    --darkaccent: color-mix(in srgb, var(--accent) 70%, #b50051);
+    --lightaccent: color-mix(in srgb, var(--accent) 60%, #fbffbb);
+}
+
+body {
+    font-family: 'ONE-Mobile-POP';
+    background-color: var(--bg);
+}
+
+#wrapper {
+    width: 100;
+    max-width: 825px;
+    margin: 50px auto;
+    background-color: white;
+    border-radius: 15px;
+    padding: 25px;
+}
+
+#profile {
+    text-align: right;
+    margin: -25px;
+    padding: 100px 20px;
+    border-radius: 15px 15px 0 0;
+    background-image: url("../assets/profile.png");
+    background-size: cover;
+    background-position: center;
+    color: var(--darkaccent);
+}
+
+.links {
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    background-color: var(--accent);
+    margin: 0 -45px;
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+}
+
+#links-list {
+    display: flex;
+    justify-content: space-around;
+}
