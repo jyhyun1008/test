@@ -10,7 +10,7 @@
     --bg: #efefef;
     --darkaccent: color-mix(in srgb, var(--accent) 70%, #b50051);
     --lightaccent: color-mix(in srgb, var(--accent) 60%, #fbffbb);
-    --lightpink: #ffe8e1;
+    --lightpink: #ffd9cd;
 }
 
 body {
