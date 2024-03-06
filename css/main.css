@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap')
+
 @font-face {
     font-family: 'ONE-Mobile-POP';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-POP.woff') format('woff');
@@ -22,6 +24,10 @@ body {
     background-size: 20px 20px;
     background-repeat: repeat;
     line-height: 1.9rem;
+}
+
+span {
+      font-family: "Mochiy Pop One", !important;
 }
 
 #wrapper {
