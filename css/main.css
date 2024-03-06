@@ -58,6 +58,10 @@ body {
     text-decoration: none;
 }
 
+.link i {
+    font-size: 2em;
+}
+
 .whitebg {
     text-align: center;
 }
