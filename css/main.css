@@ -10,6 +10,7 @@
     --bg: #efefef;
     --darkaccent: color-mix(in srgb, var(--accent) 70%, #b50051);
     --lightaccent: color-mix(in srgb, var(--accent) 60%, #fbffbb);
+    --lightpink: #ffe2e1;
 }
 
 body {
@@ -26,7 +27,7 @@ body {
     width: 100;
     max-width: 825px;
     margin: 50px auto;
-    background-color: #ffffff99;
+    background-color: #ffffffd3;
     border-radius: 15px;
     padding: 25px;
 }
