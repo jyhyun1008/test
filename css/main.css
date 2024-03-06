@@ -67,6 +67,18 @@ body {
     font-size: 2em;
 }
 
+.link span {
+    display: none;
+}
+
+.link:hover i {
+    display:none;
+}
+
+.link:hover span {
+    display:inline-block;
+}
+
 .whitebg {
     text-align: center;
 }
