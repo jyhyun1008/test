@@ -26,8 +26,9 @@ body {
     line-height: 1.9rem;
 }
 
-span {
-      font-family: "Mochiy Pop One", !important;
+#post span {
+      font-family: "Mochiy Pop One" !important;
+      font-size: 0.9em;
 }
 
 #wrapper {
