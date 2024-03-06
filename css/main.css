@@ -22,7 +22,7 @@ body {
     width: 100;
     max-width: 825px;
     margin: 50px auto;
-    background-color: white;
+    background-color: #ffffff99;
     border-radius: 15px;
     padding: 25px;
 }
@@ -68,4 +68,12 @@ body {
 
 .page_title {
     color: var(--accent);
+}
+
+blockquote {
+    margin-left: 0;
+    padding-left: 1em;
+    border-left: 3px solid var(--accent);
+    border-right: 3px solid var(--accent);
+    background-color: white;
 }
