@@ -98,7 +98,7 @@ span {
 blockquote {
     margin-left: 0;
     margin-right: 0;
-    padding: 10px 1em;
+    padding: 10px 1em 0 1em;
     border-left: 3px solid var(--accent);
     border-right: 3px solid var(--accent);
     background-color: white;
