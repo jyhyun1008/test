@@ -10,14 +10,14 @@
     --bg: #efefef;
     --darkaccent: color-mix(in srgb, var(--accent) 70%, #b50051);
     --lightaccent: color-mix(in srgb, var(--accent) 60%, #fbffbb);
-    --lightpink: #ffe2e1;
+    --lightpink: #ffe8e1;
 }
 
 body {
     font-family: 'ONE-Mobile-POP';
     background-color: var(--bg);
     overflow-x: hidden;
-    background-image:  linear-gradient(135deg, var(--lightaccent) 25%, transparent 25%), linear-gradient(225deg, var(--lightaccent) 25%, transparent 25%), linear-gradient(45deg, var(--lightaccent) 25%, transparent 25%), linear-gradient(315deg, var(--lightaccent) 25%, var(--bg) 25%);
+    background-image:  linear-gradient(135deg, var(--lightpink) 25%, transparent 25%), linear-gradient(225deg, var(--lightpink) 25%, transparent 25%), linear-gradient(45deg, var(--lightpink) 25%, transparent 25%), linear-gradient(315deg, var(--lightpink) 25%, var(--bg) 25%);
     background-position:  10px 0, 10px 0, 0 0, 0 0;
     background-size: 20px 20px;
     background-repeat: repeat;
