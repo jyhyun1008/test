@@ -1,1 +1,1 @@
-window.location.href = "https:///blog.daydream.ink/hyun1008";
+window.location.href = "https://blog.daydream.ink/hyun1008";
