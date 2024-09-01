@@ -394,9 +394,10 @@ SNSアイコンリスト
 .snslist .snslist__item.youtube:hover a {
   background-color: #DA1725;
 }
-.snslist .snslist__item .lab {
+.snslist .snslist__item .lab, .snslist .snslist__item .las {
   margin: 6px 1px 3px 3px;
   font-size: 2rem;
+  color: #fff;
 }
 @media screen and (max-width: 520px) {
   .snslist {
