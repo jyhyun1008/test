@@ -97,7 +97,7 @@ if (!page && !html) {
   .then(res => res.text())
   .then((out) => {
     out = out.replace('\n', '<titleendhere>')
-    var title = out.split('<titleendhere>')[0]
+    var title = out.split('<titleendhere>')[0].replace('# ', '')
     var content = out.split('<titleendhere>')[1]
     document.querySelector(".novelpage__title.titles").innerHTML = title
     document.querySelector(".novelpage__main").innerHTML += marked.parse(content)
