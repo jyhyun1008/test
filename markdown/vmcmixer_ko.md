@@ -1,4 +1,4 @@
-# VMC Dual Cam Mixer [en-US]
+# VMC Dual Cam Mixer [ko-KR]
 
 ## Language
 * [en-US](./?p=vmcmixer_en)
