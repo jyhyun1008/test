@@ -398,6 +398,8 @@ SNSアイコンリスト
   margin: 6px 1px 3px 3px;
   font-size: 2rem;
   color: #fff;
+  position: relative;
+  top: -1px;
 }
 @media screen and (max-width: 520px) {
   .snslist {
