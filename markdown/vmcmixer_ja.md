@@ -19,7 +19,12 @@
 ## デモビデオ
 
 - [デモ（2024年8月31日、KST）](https://www.youtube.com/watch?v=W1B7syI2zeA)
+
+<iframe style="width:100%; aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/W1B7syI2zeA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 - [ダンスビデオ（2024年8月31日、KST）](https://www.youtube.com/watch?v=CjclBkex2lo)
+
+<iframe style="width:100%; aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/CjclBkex2lo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 何ができるのか？
 
